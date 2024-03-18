@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {FaGithub } from "react-icons/fa";
 import  '../Pages/Resume.css';
 import cloneimg from "../asset/clone.png";
@@ -6,10 +7,6 @@ import counterimg from "../asset/counter.png"
 import portfolioimg from "../asset/portfolio.png"
 import parallaximg from "../asset/parallax.png"
 import resumeimg from "../asset/resume.png" 
-
-
-
-
 
 
 const Repo = ({repo}) => {
@@ -45,7 +42,7 @@ const Repo = ({repo}) => {
        <img src={screenshot} alt={repo.name} width={290} height={150} className='p-5'/>
        
        <div className='flex gap-x-2  justify-between items-center mt-2'>
-            <a href={repo.html_url} target="_blank" className='button flex justify-center items-center gap-2 '> <FaGithub/> GitHub</a>
+            <Link to={repo.html_url} target="_blank" className='button flex justify-center items-center gap-2 '> <FaGithub/> GitHub</Link>
             
        </div>
        
