@@ -6,7 +6,8 @@ import cloneimg from "../asset/clone.png";
 import counterimg from "../asset/counter.png"
 import portfolioimg from "../asset/portfolio.png"
 import parallaximg from "../asset/parallax.png"
-import resumeimg from "../asset/resume.png" 
+import resumeimg from "../asset/resume.png"
+import ecartimg from "../asset/ecart.png"
 
 
 const Repo = ({repo}) => {
@@ -32,6 +33,10 @@ const Repo = ({repo}) => {
   {
     screenshot=resumeimg;
   }
+  if(repo.name === 'ecart')
+  {
+    screenshot=ecartimg;
+  }
 
   return (
 
@@ -43,6 +48,7 @@ const Repo = ({repo}) => {
        
        <div className='flex gap-x-2  justify-between items-center mt-2'>
             <Link to={repo.html_url} target="_blank" className='button flex justify-center items-center gap-2 '> <FaGithub/> GitHub</Link>
+            
             
        </div>
        
