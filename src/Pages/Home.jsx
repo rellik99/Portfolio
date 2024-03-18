@@ -97,7 +97,7 @@ const Home = () => {
                     <p className='text-md text-gray-700'>Feel free to <span className='text-[#343d68]'>connect</span>  with me</p>
                 </div>
 
-                <div className='flex space-x-2 justify-center items-center pb-14'>
+                <div className='flex space-x-2 justify-center items-center pb-28  lg:pb-14'>
                     <Link to='https://github.com/rellik99' target="_blank"><FaGithub className='text-4xl bg-white text-[#343d68] hover:text-[#e84949] transition duration-200 rounded-full p-2 cursor-pointer' /></Link>
                     <Link to='https://www.linkedin.com/in/prem-kumar-817743217/' target="_blank"><FaLinkedinIn className='text-4xl bg-white text-[#343d68] hover:text-[#e84949] transition duration-200 rounded-full p-2 cursor-pointer'  /></Link>
                     <Link to='https://www.instagram.com/prem_rellik99/' target="_blank"><FaInstagram className='text-4xl bg-white text-[#343d68] hover:text-[#e84949] transition duration-200 rounded-full p-2 cursor-pointer' /></Link>
