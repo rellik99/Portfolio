@@ -45,7 +45,7 @@ const Repo = ({repo}) => {
        <img src={screenshot} alt={repo.name} width={290} height={150} className='p-5'/>
        
        <div className='flex gap-x-2  justify-between items-center mt-2'>
-            <a href={repo.html_url} className='button flex justify-center items-center gap-2 '> <FaGithub/> GitHub</a>
+            <a href={repo.html_url} target="_blank" className='button flex justify-center items-center gap-2 '> <FaGithub/> GitHub</a>
             
        </div>
        
