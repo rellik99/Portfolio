@@ -79,13 +79,13 @@ const About = () => {
                 <img src={reduximg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
                 <img src={tailwindimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/> 
                 <img src={mongodbimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={expressjs} className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={githubimg} className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={cimg} className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={vscodeimg} className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={sqlimg} className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={javaimg} className="w-[80px] transition hover:scale-110 duration-200 ease-in"/>
-                <img src={gitimg} className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={expressjs} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={githubimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={cimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={vscodeimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={sqlimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={javaimg} alt="" className="w-[80px] transition hover:scale-110 duration-200 ease-in"/>
+                <img src={gitimg} alt="" className="w-[90px] transition hover:scale-110 duration-200 ease-in"/>
 
             </div>
 
