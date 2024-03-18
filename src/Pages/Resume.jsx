@@ -5,10 +5,15 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import "./Resume.css"
 
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-  'pdfjs-dist/build/pdf.worker.min.js',
-  import.meta.url,
-)
+// pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+//   'pdfjs-dist/build/pdf.worker.min.js',
+//   import.meta.url,
+// )
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+
+
+// pdfjs.GlobalWorkerOptions.workerSrc = new URL( "pdfjs-dist/build/pdf.worker.min.js", import.meta.url ).toString();
+
 
 const Resume = () => {
   const fileUrl="./resume.pdf";
