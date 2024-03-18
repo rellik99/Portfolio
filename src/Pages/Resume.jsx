@@ -21,13 +21,13 @@ const Resume = () => {
   
 
   return (
-    <div className='w-full min-h-[100vh] mt-14 flex flex-col justify-center items-center gap-8 pb-14'>
+    <div className='w-full min-h-[100vh] mt-14 flex flex-col justify-center items-center gap-8 pb-28'>
 
       <a href={fileUrl} download={fileUrl}><button className='button flex justify-center items-center gap-2 mt-20' >Download Resume 
       <span><MdOutlineFileDownload /></span> </button></a>
 
-      <Document file={fileUrl} className='w-11/12 flex border-2  justify-center items-center max-w-[650px] mx-auto '>
-        <Page pageNumber={1} renderAnnotationLayer={false} />
+      <Document file={fileUrl}  className='w-11/12  border-2    max-w-[650px] mx-auto pt-8'>
+        <Page  pageNumber={1} renderAnnotationLayer={false} />
       </Document>
       
     </div>
